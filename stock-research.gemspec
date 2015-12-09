@@ -14,14 +14,12 @@ Gem::Specification.new do |spec|
   spec.executables   = ["stock-research"]
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.name          = "stock-research-cli-gem"
-  spec.require_paths = ["lib", "lib/stock-research"]
+  spec.require_paths = ["lib", "lib/stock_research"]
   spec.version       = "0.1.0"
   spec.license       = "MIT"
 
-  spec.add_development_dependency "bundler", "~> 1.10"
+  # spec.add_development_dependency "bundler", "~> 1.10"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec"
   spec.add_development_dependency "pry"
-  spec.add_development_dependency "csv"
-  spec.add_development_dependency "open-uri"
 end

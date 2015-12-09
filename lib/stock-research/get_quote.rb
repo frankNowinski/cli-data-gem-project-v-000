@@ -42,6 +42,10 @@ class GetQuote
         puts "\n\n"
         puts "#{row[0]}".center(54)
         puts " " + "-" * 51
+        tags_captions.each.with_index(0) do |caption,i  |
+
+        end
+
         while counter < tags_caption.count 
           puts " #{tags_caption[counter].join}: #{currency?(row[counter])}#{row[counter]}"
           counter += 1
