@@ -24,11 +24,12 @@ describe 'CLI' do
     it 'is an instance method' do 
       expect(stocks).to respond_to(:start) 
     end
-
-    it 'calls an instance method called #list' do
-      expect(stocks.start).to respond_to(:list) # Why does this enter the program?
-    end
   end
+
+  #   it 'calls an instance method called #list' do
+  #     expect(stocks.start).to respond_to(:list) # Why does this enter the program?
+  #   end
+  # end
 
     # Unsure of how to tests for constant variables
     # describe '::POPULAR_STOCKS' do
