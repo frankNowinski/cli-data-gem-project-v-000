@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Gem dependencies listed in stock-research.gemspec
+# Specify your gem's dependencies in now-playing-cli-gem.gemspec
 gemspec
